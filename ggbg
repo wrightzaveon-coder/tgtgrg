@@ -201,24 +201,24 @@ local Library = { } do
     Library.WindowHeight = 500
 
     Library.Theme = {
-        Background = Color3.fromRGB(10, 10, 12),
+        Background = Color3.fromRGB(0, 0, 0),
         Section = Color3.fromRGB(16, 16, 19),
         Element = Color3.fromRGB(24, 24, 28),
-        Light = Color3.fromRGB(36, 36, 41),
+        Light = Color3.fromRGB(0, 255, 0),
         Hover = Color3.fromRGB(48, 48, 54),
-        Line = Color3.fromRGB(38, 38, 43),
-        Text = Color3.fromRGB(255, 255, 255),
-        DimText = Color3.fromRGB(158, 158, 166),
+        Line = Color3.fromRGB(0, 255, 0),
+        Text = Color3.fromRGB(0, 255, 0),
+        DimText = Color3.fromRGB(0, 255, 0),
         DimIcon = Color3.fromRGB(145, 145, 153),
-        Accent = Color3.fromRGB(40, 200, 90)
+        Accent = Color3.fromRGB(0, 255, 0)
     }
 
     Library.AccentPresets = {
-        Color3.fromRGB(179, 165, 255),
-        Color3.fromRGB(120, 132, 255),
-        Color3.fromRGB(96, 170, 255),
-        Color3.fromRGB(72, 214, 168),
-        Color3.fromRGB(245, 130, 120)
+        Color3.fromRGB(0, 255, 0),
+        Color3.fromRGB(0, 255, 0),
+        Color3.fromRGB(0, 255, 0),
+        Color3.fromRGB(0, 255, 0),
+        Color3.fromRGB(0, 255, 0)
     }
 
     local function MakePreset(Name, Colors)
@@ -237,52 +237,40 @@ local Library = { } do
     Library.ThemePresets = {
         MakePreset("Default", Library.Theme),
         MakePreset("Azure", {
-            Background = Color3.fromRGB(16, 20, 30),
+            Background = Color3.fromRGB(0, 0, 0),
             Section = Color3.fromRGB(20, 25, 37),
             Element = Color3.fromRGB(25, 31, 46),
-            Light = Color3.fromRGB(33, 41, 60),
+            Light = Color3.fromRGB(0, 255, 0),
             Hover = Color3.fromRGB(39, 48, 70),
-            Line = Color3.fromRGB(25, 31, 46),
-            Text = Color3.fromRGB(233, 239, 250),
-            DimText = Color3.fromRGB(110, 120, 142),
+            Line = Color3.fromRGB(0, 255, 0),
+            Text = Color3.fromRGB(0, 255, 0),
+            DimText = Color3.fromRGB(0, 255, 0),
             DimIcon = Color3.fromRGB(110, 120, 142),
-            Accent = Color3.fromRGB(96, 150, 255)
+            Accent = Color3.fromRGB(0, 255, 0)
         }),
         MakePreset("Emerald", {
-            Background = Color3.fromRGB(14, 24, 20),
-            Section = Color3.fromRGB(18, 30, 25),
-            Element = Color3.fromRGB(23, 37, 31),
-            Light = Color3.fromRGB(30, 48, 40),
-            Hover = Color3.fromRGB(36, 56, 47),
-            Line = Color3.fromRGB(23, 37, 31),
-            Text = Color3.fromRGB(232, 244, 238),
-            DimText = Color3.fromRGB(106, 128, 118),
-            DimIcon = Color3.fromRGB(106, 128, 118),
-            Accent = Color3.fromRGB(76, 214, 148)
+            Background = Color3.fromRGB(0, 0, 0),
+            Section = Color3.fromRGB(20, 25, 37),
+            Element = Color3.fromRGB(25, 31, 46),
+            Light = Color3.fromRGB(0, 255, 0),
+            Hover = Color3.fromRGB(39, 48, 70),
+            Line = Color3.fromRGB(0, 255, 0),
+            Text = Color3.fromRGB(0, 255, 0),
+            DimText = Color3.fromRGB(0, 255, 0),
+            DimIcon = Color3.fromRGB(110, 120, 142),
+            Accent = Color3.fromRGB(0, 255, 0)
         }),
         MakePreset("Ocean", {
-            Background = Color3.fromRGB(14, 23, 28),
-            Section = Color3.fromRGB(18, 28, 34),
-            Element = Color3.fromRGB(23, 35, 42),
-            Light = Color3.fromRGB(30, 45, 54),
-            Hover = Color3.fromRGB(36, 53, 63),
-            Line = Color3.fromRGB(23, 35, 42),
-            Text = Color3.fromRGB(230, 240, 244),
-            DimText = Color3.fromRGB(104, 122, 132),
-            DimIcon = Color3.fromRGB(104, 122, 132),
-            Accent = Color3.fromRGB(72, 200, 214)
-        }),
-        MakePreset("Rose", {
-            Background = Color3.fromRGB(26, 17, 21),
-            Section = Color3.fromRGB(32, 21, 26),
-            Element = Color3.fromRGB(39, 26, 32),
-            Light = Color3.fromRGB(50, 33, 41),
-            Hover = Color3.fromRGB(58, 39, 48),
-            Line = Color3.fromRGB(39, 26, 32),
-            Text = Color3.fromRGB(245, 234, 238),
-            DimText = Color3.fromRGB(132, 110, 118),
-            DimIcon = Color3.fromRGB(132, 110, 118),
-            Accent = Color3.fromRGB(240, 118, 150)
+            Background = Color3.fromRGB(0, 0, 0),
+            Section = Color3.fromRGB(20, 25, 37),
+            Element = Color3.fromRGB(25, 31, 46),
+            Light = Color3.fromRGB(0, 255, 0),
+            Hover = Color3.fromRGB(39, 48, 70),
+            Line = Color3.fromRGB(0, 255, 0),
+            Text = Color3.fromRGB(0, 255, 0),
+            DimText = Color3.fromRGB(0, 255, 0),
+            DimIcon = Color3.fromRGB(110, 120, 142),
+            Accent = Color3.fromRGB(0, 255, 0)
         })
     }
 
